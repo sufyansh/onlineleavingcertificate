@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  padding-top: 70px;
+  margin: 0;
 }
 
+.background-image{
+  background-image: url('./assest/logo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 300vh;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
