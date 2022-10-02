@@ -8,7 +8,7 @@ import './navbar.scss'
     <div className='Topbar'>
         <div className='container'>
             <div className='coloumn one'>
-                <div className='top_bar_left clearfix' >
+                <div className='logo_bar' >
                     <a className='logo' href='#'>
             
                          <img className='img ' src={logo} alt="">          
@@ -19,8 +19,8 @@ import './navbar.scss'
                     <h1>
                         <h2 className='logo-title'>
                             Dawood University of Engineering & Technology   </h2>
-                        <h5 className='slogan'>Together We Grow </h5>
                     </h1>
+                    <h5 className='slogan'>Together We Grow </h5>
                 </div>
             </div>
         </div>

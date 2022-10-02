@@ -1,48 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
 .Tobar{
-    position: relative;
-    
+    position: absolute;
+    left: 0;
+    top: 61px;
+    width: 100%;
+    z-index: 30;
 }
 
 .container{
-    border: 0px solid;
-    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.logo_bar{
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    position:absolute;
+    width: 100%;
+    
 }
 
 .img{
     position: absolute;
-    left: 30px;
-    top: -20px;
     border: 1px solid #ddd;
     border-radius: 12px;
-    width: 200px;
-    height: 100px;
-    vertical-align: middle;
-   
+    width: 12%;
 }
 .title-wrapper{
-position: relative;
-left: 100px;
-text-align: center;
-}
-// .h2{
+ 
+    justify-content: center;
+    align-items: center;
     
-//     border: 2px solid;
-// }
+  
+}
+
 .logo-title{
     
     font-family: 'Engagement','inherit';
-    text-align: center;
-    // font-size: 40px;
-     border: 1px solid;
-    //  font-family: 'Poppins', sans-serif;
-     font-size: 1.1em;
-     font-weight: 300;
+    font-size: 40px;
+     font-weight:  bold;
      line-height: 1.7em;
      color: black;
-     border: 1px solid;
-    //  padding: 0px;
-    //  margin: 0px;
 }
 .slogan{
     font-family: 'Engagement', cursive;
@@ -56,11 +66,17 @@ text-align: center;
     padding-top: 10px;
 
 }
-@media screen and (max-width: 574px){
+@media screen and (max-width: 700px){
+    .logo_bar{
+        justify-content: center ;
+    width: 100% !important;
+    }
     .img{
-      
-        border: 1px solid;
-        align-items: center;
-       
+        width: 20%;
+
+    }
+    .title-wrapper{
+        display: block;
+        margin: 70spx;
     }
 }
