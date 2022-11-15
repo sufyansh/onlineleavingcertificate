@@ -23,13 +23,15 @@ const Header = () => {
   return (
     <nav>
     {(toggleMenu || screenWidth > 574) && (
+      
     <ul className="list" >
-    <li className="items" href="#">Registrar</li>
+    <li className="items" >Registrar</li>
     <li className="items">LogIn</li>
     <li className="items">Clearence</li>
-    <li className="items">Contact</li>
     <li className="items">Help Us</li>
   </ul>
+  
+
     )}
 
     <button onClick={toggleNav} className="btn" data-toggle="button" aria-pressed="false">+</button>

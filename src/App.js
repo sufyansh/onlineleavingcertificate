@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './component/Header/Header';
-import NavBar  from './component/Navbar/navbar';
+import Header from './component/UI/Header/Header';
+import Navbar from './component/UI/Navbar/navbar';
 const  App = () => {
   return (
     <div className="App">
-      
       <Header />
-      
-      <NavBar />
-
+      <Navbar />
       </div>
   );
 }
